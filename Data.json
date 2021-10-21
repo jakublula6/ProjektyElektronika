@@ -1,0 +1,16 @@
+[
+    {   
+        "title":"Robot",
+        "author":"Jan Kowalski",
+        "year":2018,
+        "description":"www.wikipedia.pl",
+        "files":false
+    },
+    {   
+        "title":"Pomocnki kucharza",
+        "author":"Jan Nowak",
+        "year":2019,
+        "description":"www.google.pl",
+        "files":"www.serwer/file1.exe"
+    }
+]
