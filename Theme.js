@@ -1,5 +1,6 @@
 export default{
-    primary:'#333333',
-    secondary:'#555555',
-    fontColor:'#fff'
+    primary:'gray',
+    secondary:'blue',
+    fontColor:'#fff',
+    background:'#e3e3e3',
 }

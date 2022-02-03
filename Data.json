@@ -1,16 +1,38 @@
 [
     {   
-        "title":"Robot",
-        "author":"Jan Kowalski",
-        "year":2018,
-        "description":"www.wikipedia.pl",
-        "files":false
+        "Id":1,
+        "Title":"Dyspenzer karmy",
+        "Author":"Jakub Lula",
+        "Date":"2019-10-01T00:00:00",
+        "IsDiplomaProject":false,
+        "Category": "arduino",
+        "Files":"https://www.google.pl"
     },
     {   
-        "title":"Pomocnki kucharza",
-        "author":"Jan Nowak",
-        "year":2019,
-        "description":"www.google.pl",
-        "files":"www.serwer/file1.exe"
-    }
+        "Id":2,
+        "Title":"Wirtualny oscyloskop",
+        "Author":"Adam Nowak",
+        "Date":"2018-11-01T00:00:00",
+        "IsDiplomaProject":true,
+        "Category": "Aplikacja",
+        "Files":"https://www.wikipedia.org"
+    },
+    {   
+        "Id":3,
+        "Title":"Zasilacz",
+        "Author":"Jakub Lula",
+        "Date":"2019-10-01T00:00:00",
+        "IsDiplomaProject":false,
+        "Category": "arduino",
+        "Files":"https://www.google.pl"
+    },
+    {   
+        "Id":4,
+        "Title":"Oscyloskop",
+        "Author":"Adam Nowak",
+        "Date":"2011-10-11T00:00:00",
+        "IsDiplomaProject":true,
+        "Category": "Analogowe",
+        "Files":"https://www.wikipedia.org"
+    } 
 ]

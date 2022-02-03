@@ -4,11 +4,11 @@
     "slug": "Projekty",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./projekty.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./projekty.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#BEBEBE"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "projects.students"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./projekty.png"
+      },
+      "versionCode": 1,
+      "package":"projects.students"
     }
   }
 }

@@ -14,11 +14,12 @@ export default Header
 
 const styles = StyleSheet.create({
     header:{
-        margin:20
+        marginTop:50
     },
     headerText:{
         textAlign:'center',
-        fontSize: 28,
+        fontSize: 32,
+        fontWeight:'700',
         color: Theme.fontColor
     }
 })
