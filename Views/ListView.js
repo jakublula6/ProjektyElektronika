@@ -40,8 +40,7 @@ export default function ListView(props) {
   }
   //filtr tylko projekt
   const onlyProject = () =>{
-    props.setData(props.Data.filter(item => item.is_diploma === true))
-    render(props.Data)
+    render(props.Data.filter(item => item.is_diploma === true))
   }
   //filtr kategoria
   const category = (keyword) =>{
@@ -64,7 +63,6 @@ export default function ListView(props) {
         onlyProject()
         break;
       case 'domyślne':
-        props.setData(props.primaryData)
         render(props.Data)
         break;
       default:
